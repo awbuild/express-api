@@ -1,0 +1,23 @@
+{
+  "name": "blog-api-project",
+  "version": "1.0.0",
+  "description": "Complete Blog Post API with Posts and Users",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "npm run test:api",
+    "test:api": "newman run Blog-Post-API.postman_collection.json",
+    "test:api:verbose": "newman run Blog-Post-API.postman_collection.json --reporters cli,json --reporter-json-export test-results.json"
+  },
+  "keywords": ["express", "api", "blog", "posts", "users", "rest"],
+  "author": "Student",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "newman": "^6.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
