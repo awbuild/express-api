@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blog Post API
 
 A complete RESTful API for managing blog posts and users built with Express.js.
@@ -162,3 +163,6 @@ All errors follow a consistent format:
 - Server runs on port 3000 (configurable via `PORT` environment variable)
 - Request logging enabled in console
 - Environment-based error responses (development vs production)
+=======
+# express-api
+>>>>>>> 0fed1304be0864e9da97be6161f053aa0122919c
